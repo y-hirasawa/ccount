@@ -9,4 +9,4 @@ jobs:
                         - uses: ./
                           with:
                                   token: ${{ secrets.GITHUB_TOKEN }}
-                                  pattern: ./index.js
+                                  patterns: ./index.js
